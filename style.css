@@ -97,14 +97,14 @@ i {
     height: 80px !important;
   }
   .navbar-brand img {
-    width: 120px;
-    height: 60px;
+    width: 125px;
+    height: 55px;
   }
   .mycarousel {
     margin-top: 100px !important;
   }
   .carousel-item img {
-    height: 350px;
+    height: 250px;
   }
   .carousel-indicators [data-bs-target] {
     width: 10px;
