@@ -1,0 +1,116 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.margin {
+  margin-top: 50px;
+}
+
+.padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*navbar*/
+nav {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100px !important;
+  background-color: white;
+}
+
+i {
+  font-size: 20px;
+}
+
+.i-title {
+  font-size: 10px;
+}
+
+.form-control {
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn {
+  border-radius: 0 5px 5px 0;
+}
+
+/*carousel*/
+.mycarousel {
+  margin-top: 140px !important;
+}
+
+.carousel-item img {
+  height: 480px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 6rem;
+  height: 6rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-bottom: -0.5rem;
+}
+
+/*section card*/
+
+.deals .card {
+  min-width: 260px !important;
+  margin-bottom: 20px;
+}
+
+.card {
+  min-width: 230px !important;
+  margin-bottom: 20px;
+}
+
+/*footer*/
+.footericons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footericons i {
+  font-size: 35px;
+}
+
+.copyright {
+  box-shadow: rgba(7, 7, 7, 0.35) 0px 5px 15px;
+  background-color: #0c3169;
+  color: white;
+}
+
+/*mobilescreen*/
+@media screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    height: 80px !important;
+  }
+  .navbar-brand img {
+    width: 150px;
+    height: 60px;
+  }
+  .mycarousel {
+    margin-top: 100px !important;
+  }
+  .carousel-item img {
+    height: 350px;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
